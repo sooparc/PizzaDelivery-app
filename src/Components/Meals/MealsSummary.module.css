@@ -1,0 +1,39 @@
+.summary {
+  text-align: center;
+  max-width: 48rem;
+  width: 90%;
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #f1a5a5;
+  letter-spacing: 1.5px;
+}
+
+.title {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.content {
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .summary {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .content {
+    font-size: 11px;
+  }
+}
